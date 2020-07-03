@@ -16,11 +16,11 @@ namespace BossTemplate
         //this template is meant for godhome use. It can be used for first boss encounters, but was not meant for that use.
 
         //The name of the boss gameobject. you can use debug to find this.
-        public static string bossobjectname = "BossObjectName";
+        public static string bossobjectname = "Giant Buzzer Col";
         //The name of the scene or level that the boss is located in.
-        public static string bossscenename = "BossSceneName";
+        public static string bossscenename = "GG_Vengefly";
         //The name of the playmaker FSM on the boss gameobject. you can use FSM viewer to find this.
-        public static string bossfsmname = "BossFSMName";
+        public static string bossfsmname = "Big Buzzer";
         //is the boss in the pantheons or only in hall of gods/hog? make false if your boss is located outside of godhome or the way to reach the boss requires you to not be in hog.
         public static bool onlyinhog = true;
         //name of the mod
